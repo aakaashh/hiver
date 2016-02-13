@@ -1,0 +1,9 @@
+//Writtern in javascript
+
+function append_random_number(name){
+// This method appends a random number between 6 and 15(both numbers excluded) to the name and returns it. 
+	
+	var num = Math.floor(Math.random() * 8) + 7; //Generates a random number between 6 and 15 (both excluded)	
+	return name.concat(" ",num);
+
+}
